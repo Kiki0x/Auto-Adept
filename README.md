@@ -14,8 +14,6 @@ An AI-powered digital car showroom and recommendation mentor. Built with Python,
 * **Database:** MySQL 8.0
 * **AI Integration:** Google Generative AI SDK (Gemini 2.5 Flash)
 
----
-
 ## 🚀 How to Run Locally
 
 ### Prerequisites
@@ -39,7 +37,8 @@ It is highly recommended to run this project in an isolated virtual environment.
 * **Activate it (Mac/Linux):**
   ```bash
   source venv/bin/activate
-* **Install Required Libraries -**
- With your virtual environment active, install the necessary Python packages:
+
+### 3. Install Required Libraries
+With your virtual environment active, install the necessary Python packages:
   ```bash
   pip install Flask PyMySQL google-generativeai pandas
