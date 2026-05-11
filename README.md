@@ -39,7 +39,7 @@ It is highly recommended to run this project in an isolated virtual environment.
 * **Activate it (Mac/Linux):**
   ```bash
   source venv/bin/activate
-* **Install Required Libraries**
+* **Install Required Libraries -**
  With your virtual environment active, install the necessary Python packages:
   ```bash
   pip install Flask PyMySQL google-generativeai pandas
