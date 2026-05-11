@@ -33,3 +33,6 @@ It is highly recommended to run this project in an isolated virtual environment.
 * **Create the environment:**
   ```bash
   python -m venv venv
+* **Activate it (Windows)::**
+  ```bash
+  venv\Scripts\activate
