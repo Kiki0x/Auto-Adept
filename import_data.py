@@ -18,3 +18,4 @@ print("Importing cars into MySQL... This might take a few seconds.")
 df.to_sql(name='cars', con=engine, if_exists='replace', index=False)
 
 print("✅ Success! All cars have been imported into your database.")
+ 
