@@ -1,6 +1,6 @@
 # AutoAdept 🚗🤖
 
-AutoAdept is an AI-powered digital car showroom and recommendation mentor. Built with Flask, Vanilla JavaScript, and the Google Gemini API, it transforms the traditional car-buying research phase into a conversational, context-aware experience.
+An AI-powered digital car showroom and recommendation mentor. Built with Python, Flask, Vanilla JS, and the Google Gemini API, it transforms the traditional car-buying research phase into a conversational, context-aware experience.
 
 ## ✨ Features
 * **Zero-Latency Dynamic Filtering:** Instantly filter a database of 1,200+ vehicles by budget, body type, fuel, and seating capacity without page reloads.
@@ -14,7 +14,22 @@ AutoAdept is an AI-powered digital car showroom and recommendation mentor. Built
 * **Database:** MySQL 8.0
 * **AI Integration:** Google Generative AI SDK (Gemini 2.5 Flash)
 
+---
+
 ## 🚀 How to Run Locally
-1. Clone the repository: 
-   ```bash
-   git clone [https://github.com/YourUsername/AutoAdept.git](https://github.com/YourUsername/AutoAdept.git)
+
+### Prerequisites
+* **Python 3.8+** installed on your computer.
+* **MySQL Server** installed and running locally.
+
+### 1. Download and Extract the Project
+* Click the green **"<> Code"** button at the top right of this repository.
+* Select **"Download ZIP"**.
+* Extract the downloaded `.zip` file to a folder on your computer.
+* Open your terminal or command prompt and navigate (`cd`) into that extracted AutoAdept folder.
+
+### 2. Set Up a Virtual Environment
+It is highly recommended to run this project in an isolated virtual environment.
+* **Create the environment:**
+  ```bash
+  python -m venv venv
