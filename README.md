@@ -15,6 +15,6 @@ AutoAdept is an AI-powered digital car showroom and recommendation mentor. Built
 * **AI Integration:** Google Generative AI SDK (Gemini 2.5 Flash)
 
 ## 🚀 How to Run Locally
-1. Clone the repository:
+1. Clone the repository: 
    ```bash
    git clone [https://github.com/YourUsername/AutoAdept.git](https://github.com/YourUsername/AutoAdept.git)
