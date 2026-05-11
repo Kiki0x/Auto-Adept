@@ -42,3 +42,26 @@ It is highly recommended to run this project in an isolated virtual environment.
 With your virtual environment active, install the necessary Python packages:
   ```bash
   pip install Flask PyMySQL google-generativeai pandas
+
+### 4. Database Setup
+You need to load the car data into your local MySQL server so the showroom has inventory.
+* Open your MySQL Command Line or MySQL Workbench.
+* Create the empty database by running:
+  ```bash
+  CREATE DATABASE car_mentor_db;
+* Import the provided database dump file (car_mentor_db_cars.sql) into this new database to populate all the vehicle records.
+* Open app.py in your code editor and update the database credentials (around line 15) to match your local MySQL setup:
+  * DB_HOST = 'localhost'
+  * DB_USER = 'root' (Or your MySQL username)
+  * DB_PASSWORD = 'password' (Change this to your actual MySQL password)
+
+### 5. Add Your AI API Key
+* Get a free Gemini API key from Google AI Studio.
+* Open app.py and paste your key into the configuration line (around line 11):
+genai.configure(api_key="YOUR_API_KEY_HERE")
+
+### 6. Start the Showroom!
+Run the Flask development server:
+  ```bash
+  python app.py
+Open your web browser and go to http://localhost:5000 to start exploring the digital showroom and chatting with the AI Mentor!
