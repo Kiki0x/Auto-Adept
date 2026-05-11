@@ -8,7 +8,7 @@ import os  # NEW: Lets Python read your image folders!
 app = Flask(__name__)
 
 # --- 1. AI Configuration ---
-genai.configure(api_key="AIzaSyBdObjMOI1ibxkNqJzOmo8oObtKyggEO2k")
+genai.configure(api_key="ADD YOUR API HERE(I HAVE REMOVED MINE FOR PRIVACY REASONS)")
 model = genai.GenerativeModel('gemini-2.5-flash')
 
 # --- 2. Database Configuration ---
