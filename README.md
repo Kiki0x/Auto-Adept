@@ -40,6 +40,6 @@ It is highly recommended to run this project in an isolated virtual environment.
   ```bash
   source venv/bin/activate
 * **Install Required Libraries**
-With your virtual environment active, install the necessary Python packages:
+* With your virtual environment active, install the necessary Python packages:
   ```bash
   pip install Flask PyMySQL google-generativeai pandas
