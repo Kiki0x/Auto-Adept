@@ -4,7 +4,7 @@ import google.generativeai as genai
 import re
 import random
 import os  # NEW: Lets Python read your image folders!
-
+ 
 app = Flask(__name__)
 
 # --- 1. AI Configuration ---
